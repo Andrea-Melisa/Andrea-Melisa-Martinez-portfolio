@@ -47,6 +47,44 @@ header {
     margin-top: 75px;
 }
 
+.page-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 2vw 2vw;
+}
+
+#about {
+    margin-bottom: 5px;
+
+}
+
+#aboutPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutParagraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    border-left: 15px ;
+    border-left-width: 5px;
+    border-left-color:rgb(230, 167, 32);
+    border-left-style: dotted
+}
+
+#AndreaPhoto {
+    width: 150px;
+    border-radius: 80px;
+
+}
+
 h1,
 h2,
 h3,
