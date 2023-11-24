@@ -57,14 +57,18 @@ header {
 
 #about {
     margin-bottom: 5px;
-
+    align-content: center;
+    min-width: 10em;
 }
+
 
 #aboutPhoto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 10em;
+    /*margin: 1em 2em;*/
 }
 
 #aboutParagraph {
@@ -73,17 +77,88 @@ header {
     justify-content: center;
     align-items: center;
     padding: 80px;
-    border-left: 15px ;
+    border-left: 15px;
     border-left-width: 5px;
-    border-left-color:rgb(230, 167, 32);
-    border-left-style: dotted
+    border-left-color:orangered;
+    border-left-style: dotted;
 }
 
 #AndreaPhoto {
-    width: 150px;
+    width: 10em;
     border-radius: 80px;
+}
+
+#workSection {
+    min-width: 10em;
+    margin-bottom: 5px;
 
 }
+
+
+/*Grid Settings*/
+
+#workGridContainer {
+    display: grid;
+    min-height: 500px;
+    width: 100%;
+    padding: 80px;
+    border-left: 15px;
+    border-left-width: 5px;
+    border-left-color:orangered;
+    border-left-style: dotted;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 150px 150px;
+    grid-gap: 30px;
+    grid-template-areas: 
+        "horiseonCodeRefactor horiseonCodeRefactor"
+        "comingSoon1 comingSoon2"
+        "comingSoon3 comingSoon4"
+}
+
+#horiseonCodeRefactor {
+    grid-area: horiseonCodeRefactor;
+    background-image: url("../../images/WebScreenshot.png")
+}
+
+#comingSoon1 {
+    grid-area: comingSoon1;
+}
+
+#comingSoon2 {
+    grid-area: comingSoon2;
+}
+
+#comingSoon3 {
+    grid-area: comingSoon3;
+}
+
+#comingSoon4 {
+    grid-area: comingSoon4;
+}
+
+.gridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    padding: 3px;
+    color:  white;
+    border-bottom: 10px solid orangered;
+    cursor: pointer;
+    display: grid;
+    align-content: end; 
+    background-image: linear-gradient(to bottom,
+        rgba(216, 159, 27, 0.5),
+        rgba(137, 137, 231, 0.3)),
+        url("../../images/Tanitakawkaw-Simple-Cute-My-computer.256.png");
+  /*  background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #FF6200;*/
+} 
+
 
 h1,
 h2,
@@ -92,6 +167,7 @@ h4,
 h5,
 h6 {
     margin: 0;
+
 }
 
 p {
