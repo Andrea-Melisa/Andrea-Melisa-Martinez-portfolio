@@ -48,7 +48,7 @@ a:hover {
     background-color: bisque;
     justify-content: center;
     align-items: center;
-    background: url(/images/pexels-pixabay-462023.jpg);
+    background: url(/assets/images/pexels-pixabay-462023.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -130,7 +130,7 @@ a:hover {
 
 #horiseonCodeRefactor {
     grid-area: horiseonCodeRefactor;
-    background-image: url("../../images/WebScreenshot.png")
+    background-image: url("../../assets/images/WebScreenshot.png")
 }
 
 #comingSoon1 {
@@ -163,7 +163,7 @@ a:hover {
     background-image: linear-gradient(to bottom,
         rgba(238, 135, 32, 0.5),
         rgba(113, 113, 164, 0.3)),
-        url("../../images/Tanitakawkaw-Simple-Cute-My-computer.256.png");
+        url("../../assets/images/Tanitakawkaw-Simple-Cute-My-computer.256.png");
 } 
 
 .gridArea h3 {
