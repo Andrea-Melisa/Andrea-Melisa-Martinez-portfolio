@@ -250,3 +250,23 @@ h3, h4 {
 p {
     margin: 0;
 }
+
+/*Media queries*/
+@media screen and (max-width: 616px) {
+
+    /*section titles on the left side*/
+    #about, #work, #contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* change flex direction from columt to row*/
+    .contactList {
+        display: block;
+    }
+
+    #workGridContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
