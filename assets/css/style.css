@@ -265,11 +265,12 @@ p {
         flex-direction: column;
     }
 
-    /* change flex direction from columt to row*/
+    /* change flex direction from column to row, I've seen later it doesn't match with the wireframe so I comment it
     .contactList {
         display: block;
     }
-
+*/
+    
     #workGridContainer {
         display: flex;
         flex-direction: column;
